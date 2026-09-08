@@ -26,11 +26,11 @@ public class mypro extends JFrame {
 
         this.add(Contactus);
 
-        ImageIcon icon = new ImageIcon("assets/logo.jpg");
+        ImageIcon icon = new ImageIcon("./assets/logo.jpg");
 
         this.setIconImage(icon.getImage());
 
-        ImageIcon imu = new ImageIcon("assets/image2.jpg");
+        ImageIcon imu = new ImageIcon("./assets/image2.jpg");
         Image image = imu.getImage();
         Image scaledImage = image.getScaledInstance(screenSize.width, screenSize.height, image.SCALE_SMOOTH);
         imu = new ImageIcon(scaledImage);
@@ -75,7 +75,7 @@ public class mypro extends JFrame {
         // textLabeladmin.setBackground(new Color(0, 0, 255));
         adminpanel.add(textLabeladmin);
 
-        ImageIcon imageIcona = new ImageIcon("assets/admin.png");
+        ImageIcon imageIcona = new ImageIcon("./assets/admin.png");
         Image imagea = imageIcona.getImage().getScaledInstance(220, 220, Image.SCALE_SMOOTH); // resize image
         ImageIcon scaledIcon = new ImageIcon(imagea); // create new ImageIcon with the resized image
         JLabel imageLabeladmin = new JLabel(scaledIcon);
@@ -109,7 +109,7 @@ public class mypro extends JFrame {
         textLabelagent.setForeground(new Color(77, 255, 255)); // change color to green
         agentpanel.add(textLabelagent);
 
-        ImageIcon imageIconag = new ImageIcon("assets/admin.png");
+        ImageIcon imageIconag = new ImageIcon("./assets/admin.png");
         Image imageag = imageIconag.getImage().getScaledInstance(220, 220, Image.SCALE_SMOOTH); // resize image
         ImageIcon scaledIconag = new ImageIcon(imageag); // create new ImageIcon with the resized image
         JLabel imageLabelagent = new JLabel(scaledIconag);
@@ -142,7 +142,7 @@ public class mypro extends JFrame {
         textLabelbuyer.setForeground(new Color(77, 255, 255)); // change color to green
         buyerpanel.add(textLabelbuyer);
 
-        ImageIcon imageIconb = new ImageIcon("assets/admin.png");
+        ImageIcon imageIconb = new ImageIcon("./assets/admin.png");
         Image imageb = imageIconb.getImage().getScaledInstance(220, 220, Image.SCALE_SMOOTH); // resize image
         ImageIcon scaledIconb = new ImageIcon(imageb); // create new ImageIcon with the resized image
         JLabel imageLabelbuyer = new JLabel(scaledIconb);
@@ -175,7 +175,7 @@ public class mypro extends JFrame {
         textLabeloffice.setForeground(new Color(77, 255, 255)); // change color to green
         officepanel.add(textLabeloffice);
 
-        ImageIcon imageIcono = new ImageIcon("assets/admin.png");
+        ImageIcon imageIcono = new ImageIcon("./assets/admin.png");
         Image imageo = imageIcono.getImage().getScaledInstance(220, 220, Image.SCALE_SMOOTH); // resize image
         ImageIcon scaledIcono = new ImageIcon(imageo); // create new ImageIcon with the resized image
         JLabel imageLabeloffice = new JLabel(scaledIcono);
