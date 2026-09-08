@@ -16,11 +16,14 @@ A desktop-based real estate platform built with **Java Swing** and **MySQL/JDBC*
 - [Project Architecture](#project-architecture)
 - [Workflow Implementation](#workflow-implementation)
 - [Key Features](#key-features)
+- [Main Functionalitues](#main-functionalitues)
 - [Project Structure](#project-structure)
 - [How to Run the Project](#how-to-run-the-project)
 - [Results & Conclusion](#results--conclusion)
 - [Future Improvements](#future-improvements)
 - [Author & Contact](#author--contact)
+- [Course Information](course-information)
+- [Institution](#institution)
 
 ---
 
@@ -115,6 +118,26 @@ Navigation between screens is handled by each `JFrame` class invoking another sc
 
 ---
 
+## Main Functionalitues
+
+1. Property Search and Filtering
+- Advanced search functionality based on location, property type, and price range.
+- User-friendly browsing of search results with detailed property descriptions.
+
+2. User Account Management
+- Secure login system with roles for buyers, agents, and administrators.
+- Role-based access control to ensure users have access to relevant information and actions.
+
+3. Property and Agent Information
+- Detailed property listings including images, dimensions, types, and status.
+- Easy access to agent contact information for seamless communication.
+
+4. Transaction Management
+- Comprehensive record-keeping of property transactions for agents and buyers.
+- Status updates and history tracking for all property listings.
+
+---
+
 ## Project Structure
 
 ```
@@ -201,4 +224,10 @@ The project successfully demonstrates a complete relational schema and multi-rol
 - 📧 [akash011@gmail.com]
 - 🔗 [GitHub: https://github.com/akashsingh011]
 
-*This project was originally built as a DBMS coursework project and is preserved here as a reference/legacy version alongside its enhanced rebuild.*
+## Course Information
+- **Course Name**: Database Management System (CS241) 
+- **Instructor**: Dr. Sumit Mishra (Assistant Professor)
+
+## Institution
+- **Institution Name**: Indian Institute of Information Technology Guwahati
+- **Year**: 2nd Year, 4th Semester
