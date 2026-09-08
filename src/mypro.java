@@ -30,7 +30,7 @@ public class mypro extends JFrame {
 
         this.setIconImage(icon.getImage());
 
-        ImageIcon imu = new ImageIcon("./assets/image2.jpg");
+        ImageIcon imu = new ImageIcon("./assets/house2.jpg");
         Image image = imu.getImage();
         Image scaledImage = image.getScaledInstance(screenSize.width, screenSize.height, image.SCALE_SMOOTH);
         imu = new ImageIcon(scaledImage);

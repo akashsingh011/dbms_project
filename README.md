@@ -1,6 +1,6 @@
 # HomeSphere (Java Swing Edition)
 
-![HomeSphere Banner](./assets/image2.jpg)
+![HomeSphere Banner](./assets/house2.jpg)
 
 A desktop-based real estate platform built with **Java Swing** and **MySQL/JDBC**, supporting Buyer, Seller/Agent, Admin, and Office roles — inspired by platforms like 99acres and MagicBricks.
 
