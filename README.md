@@ -1,6 +1,6 @@
 # HomeSphere (Java Swing Edition)
 
-![HomeSphere Banner](assets\image2.jpg)
+![HomeSphere Banner](./assets/image2.jpg)
 
 A desktop-based real estate platform built with **Java Swing** and **MySQL/JDBC**, supporting Buyer, Seller/Agent, Admin, and Office roles — inspired by platforms like 99acres and MagicBricks.
 
@@ -197,8 +197,8 @@ The project successfully demonstrates a complete relational schema and multi-rol
 
 ## Author & Contact
 
-**[Akash Singh]**
-📧 [akash011@gmail.com]
-🔗 [GitHub: https://github.com/akashsingh011]
+- **[Akash Singh]**
+- 📧 [akash011@gmail.com]
+- 🔗 [GitHub: https://github.com/akashsingh011]
 
 *This project was originally built as a DBMS coursework project and is preserved here as a reference/legacy version alongside its enhanced rebuild.*
