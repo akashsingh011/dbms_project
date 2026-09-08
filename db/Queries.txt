@@ -1,0 +1,29 @@
+Query 1)
+select * from property where P_address like "%Guwahati%" and Y_O_C>=2020 and sell_rent="rent";
+
+Query 2)
+select P_address from property where S_price_R_price between 2500000 and 4000000;
+
+Query 3)
+select P_address from property where P_address like "%Panbazar%" and sell_rent="rent" and flat_type>="2bhk" and S_price_R_price <=35000;
+
+Query 4)
+SELECT agent_id,A_name, SUM(S_price_R_price) as total_sales
+FROM transaction natural join agent WHERE 
+A_id=agent_id and
+sell_Rent_date BETWEEN '2023-01-01' AND '2023-04-17'
+GROUP BY agent_id
+ORDER BY total_sales DESC
+LIMIT 1;
+
+Query 5)
+SELECT agent.A_id, agent.A_name, AVG(property.S_price_R_price) AS avg_selling_price, AVG(YEAR(transaction.sell_Rent_date) - property.Y_O_C) AS avg_time_on_market
+FROM agent
+JOIN transaction ON agent.A_id = transaction.Agent_id
+JOIN property ON transaction.Prop_id = property.P_id
+WHERE YEAR(transaction.sell_Rent_date) <= 2018
+GROUP BY agent.A_id;
+
+Query 6)
+select * from property where sell_rent="sell" and S_price_R_price =(select max(S_price_R_price) from property where sell_rent="sell");
+
